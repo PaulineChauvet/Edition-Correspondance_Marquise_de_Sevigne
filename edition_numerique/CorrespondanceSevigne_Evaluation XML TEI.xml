@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/CorrespondanceSevigne_Evaluation%20XML%20TEI_odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettres de Madame de Sévigné, de sa famille, et de ses amis. XI.
+               1693-1701</title>
+            <author>Marie de Rabutin-Chantal, marquise de Sévigné</author>
+            <respStmt>
+               <resp>Encodage réalisé dans le cadre de l'évaluation du module XML-TEI</resp>
+               <persName>
+                  <forename>Pauline</forename>
+                  <surname>Breton-Chauvet</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>École nationale des Chartes</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Lettres de Madame de Sévigné, de sa famille, et de ses amis.</title>
+                  <author><forename>Marie</forename><nameLink>de</nameLink><surname>Rabutin-Chantal</surname><roleName>Marquise
+                        de Sévigné</roleName></author>
+                  <editor><forename>Pierre-Marie</forename><surname>Gault de Saint-Germain</surname></editor>
+               </titleStmt>
+               <extent>12 volumes. in-8</extent>
+               <publicationStmt>
+                  <publisher>Dalibon</publisher>
+                  <date type="premiere_edition">1823</date>
+                  <pubPlace>Paris</pubPlace>
+                  <distributor facs="https://catalogue.bnf.fr/ark:/12148/cb30487834x">Bibliothèque
+                     nationale de France</distributor>
+                  <availability>
+                     <licence>Domaine public</licence>
+                  </availability>
+               </publicationStmt>
+               <seriesStmt>
+                  <title>Lettres de Madame de Sévigné, de sa famille, et de ses amis</title>
+                  <respStmt>
+                     <resp>Lettres écrites entre 1646 et 1701, éditées en douze volumes</resp>
+                     <persName><forename>Marie</forename><nameLink>de</nameLink><surname>Rabutin-Chantal</surname><roleName>Marquise
+                           de Sévigné</roleName></persName>
+                     <persName><forename>Françoise-Marguerite</forename><nameLink>de</nameLink><surname>Sévigné</surname><roleName>comtesse
+                           de Grignan</roleName></persName>
+                     <persName><forename>Pauline</forename><nameLink>de</nameLink><surname>Grignan</surname><roleName>Marquise
+                           de Simiane</roleName></persName>
+                     <persName><forename>Marie-Angélique</forename><nameLink>de</nameLink><surname>Coulanges</surname><roleName>marquise
+                           de Coulanges</roleName></persName>
+                     <persName><forename>Philippe-Emmanuel</forename><nameLink>de</nameLink><surname>Coulanges</surname><roleName>marquis
+                           de Coulanges</roleName></persName>
+                     <persName><forename>Antoinette-Elisabeth</forename><nameLink>de</nameLink><surname>Verthamon</surname><roleName>comtesse
+                           de Guitaut</roleName></persName>
+                  </respStmt>
+                  <biblScope unit="main">Lettres de Madame de Sévigné, de sa famille, et de ses
+                     amis</biblScope>
+                  <biblScope unit="volume" n="11">Lettres de Madame de Sévigné. Tome XI.</biblScope>
+                  <biblScope unit="letter" n="1287_1290">Lettre de Madame de Sévigné à Madame de
+                     Guitaud. MCCLXXXVII.</biblScope>
+                  <biblScope unit="page" from="1" to="5">pp.1-5</biblScope>
+               </seriesStmt>
+               <notesStmt>
+                  <note>La lettre de Madame de Sévigné à Madame de Guitaut datée de septembre 1693
+                     est un document inédit dont l'éditeur est propriétaire.</note>
+                  <note>Édition ornée de vingt-cinq portraits dessinés par Devéria, augmentée de
+                     plusieurs lettres inédites, des cent-cinq lettres publiées en 1814 par
+                     Klostermann, des notes et notices de Grouvelle et des réflexions de l'abbé de
+                     Vauxelles ; précédées d'une nouvelle notice biographique sur Mme de Sévigné et
+                     accompagnées de notes</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName><forename>Marie</forename><nameLink>de</nameLink><surname>Rabutin-Chantal</surname><roleName>Marquise
+                     de Sévigné</roleName></persName>
+               <settlement type="city">Paris</settlement>
+               <date when="1693-09">septembre 1693</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName><forename>Antoinette-Elisabeth</forename><nameLink>de</nameLink><surname>Verthamon</surname><roleName>comtesse
+                     de Guitaut</roleName></persName>
+               <settlement type="city">non indiqué</settlement>
+               <date when="1693-09" cert="low">septembre 1693</date>
+            </correspAction>
+            <correspContext>
+               <ref type="prev" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6334091t/f486.image"
+                  >Lettre
+                        de<persName><forename>Marie</forename><nameLink>de</nameLink><surname>Rabutin-Chantal</surname><roleName>Marquise
+                        de Sévigné</roleName></persName> à
+                        <persName><forename>Antoinette-Elisabeth</forename><nameLink>de</nameLink><surname>Verthamon</surname><roleName>comtesse
+                        de Guitaut</roleName></persName><date when="1693" cert="high">1693</date>
+                  <note>Madame de Sévigné évoque le deuil de son amie Marie-Madeleine Pioche de La
+                     Vergne, comtesse de La Fayette, ainsi que les affaires courantes liées à la
+                     gestion du domaine de Bourbilly. Elle fait notamment part de son mécontentement
+                     à l'égard de son receveur Hébert, lequel aurait laissé le meunier accumuler une
+                     trop grande quantité de grains impayés. </note></ref>
+               <ref type="next" facs="https://gallica.bnf.fr/ark:/12148/bpt6k6323006w/f15.image"
+                  >Lettre
+                        de<persName><forename>Marie</forename><nameLink>de</nameLink><surname>Rabutin-Chantal</surname><roleName>Marquise
+                        de Sévigné</roleName></persName> à
+                        <persName><forename>Antoinette-Elisabeth</forename><nameLink>de</nameLink><surname>Verthamon</surname><roleName>comtesse
+                        de Guitaut</roleName></persName><date when="1693-12" cert="high">décembre 1693</date>
+                  <note>Madame de Sévigné s'exprime sur le décès de M. Hopines et sur les suites du
+                     litige avec son receveur, Hébert, au sujet du défaut de paiement du meunier du
+                     domaine de Bourbilly. La comtesse de Guitaut en assure alors la gérance.
+                  </note>
+               </ref>
+            </correspContext>
+         </correspDesc>
+         <settingDesc>
+            <listPlace>
+               <place xml:id="Bourgogne" type="region">
+                  <placeName>
+                     <name>Bourgogne</name>
+                  </placeName>
+                  <location>
+                     <country key="FR">France</country>
+                     <geo>49.35-4.0667</geo>
+                  </location>
+                  <note> Aujourd'hui région historique du centre-est de la France, la Bourgogne est
+                     encore un duché à l'époque de Louis XIV, soumis à l'influence du prince de
+                     Condé. Ses états ploient alors sous le poids des subsides réclamés par Louis
+                     XIV, toujours croissants, ce dont la marquise de Sévigné ne fait pas mention
+                     dans les passages financiers et comptables de sa correspondance. Lors de la
+                     rédaction de cette dernière, la Bourgogne est partagée entre plusieurs domaines
+                     seigneuriaux, parmi lesquels ceux d'Epoisses et de Bourbilly. </note>
+               </place>
+               <place xml:id="Bourbilly" type="district">
+                  <placeName>
+                     <name>Bourbilly</name>
+                  </placeName>
+                  <location>
+                     <country key="FR">France</country>
+                     <region>Bourgogne</region>
+                     <settlement type="city">Vic-de-Chassenay</settlement>
+                     <geo>47-27-18-28-nord, 4-4-05-668-est</geo>
+                  </location>
+                  <note>Propriétés de la marquise de Sévigné, le château de Bourbilly et son domaine
+                     sont situés dans la vallée du Serein. Ancien fief de la seigneurie d'Epoisses,
+                     Bourbilly est organisée, à l'époque de Mme de Sévigné, autour des activités du
+                     château, de son domaine et de la paroisse.</note>
+               </place>
+               <place xml:id="chapelle_Sainte_Marguerite" type="church">
+                  <placeName>
+                     <name>chapelle Sainte-Marguerite</name>
+                  </placeName>
+                  <location>
+                     <country key="FR">France</country>
+                     <region>Bourgogne</region>
+                     <district type="parish">Bourbilly</district>
+                  </location>
+                  <note>A l'époque de la marquise de Sévigné, la paroisse est administrée par l'abbé
+                     Poussy.</note>
+               </place>
+               <place xml:id="chateau_Bourbilly" type="monument">
+                  <placeName>
+                     <name>château de Bourbilly</name>
+                  </placeName>
+                  <location>
+                     <country key="FR">France</country>
+                     <region>Bourgogne</region>
+                     <district type="town">Bourbilly</district>
+                  </location>
+                  <note> Niché dans la vallée du Serein, le château bourguignon de Bourbilly est la
+                     propriété des Rabutin jusqu'à la mort de la marquise de Sévigné. Souvent
+                     absente, cette dernière délègue la surveillance de la gestion du domaine à son
+                     amie et voisine, la comtesse de Guitaut. Elle s'appuie également sur son homme
+                     d'affaires, Boucard, et sollicite régulièrement les conseils de Monsieur
+                     Rochon, avocat de son gendre. La gestion et l'administration de Bourbilly
+                     irriguent une large part des échanges entre la marquise de Sévigné et la
+                     comtesse de Guitaut.</note>
+               </place>
+               <place xml:id="Pignerol" type="city">
+                  <placeName>
+                     <name>Pignerol</name>
+                  </placeName>
+                  <location>
+                     <country key="IT">Italie</country>
+                     <region>Piémont</region>
+                     <geo>E-7-19-N-44-53</geo>
+                  </location>
+                  <note> Sous Louis XIV, Pignerol appartient au royaume de France et représente un
+                     lieu stratégique, notamment en raison de la prison d'Etat qui y est érigée. La
+                     ville est reconquise par le duc Victor-Amédée de Savoie en 1696, soit 3 ans
+                     après le conflit narré par la marquise de Sévigné dans la lettre ici
+                     concernée.</note>
+               </place>
+               <listRelation>
+                  <relation name="localisation" active="#Bourgogne"
+                     passive="#Bourbilly #chateau_Bourbilly #chapelle_Sainte_Marguerite"/>
+                  <relation name="localisation" active="#Bourbilly"
+                     passive="#chateau_Bourbilly #chapelle_Sainte_Marguerite"/>
+               </listRelation>
+            </listPlace>
+         </settingDesc>
+         <particDesc>
+            <listPerson type="aristocratic_sociability_network">
+               <person sex="male" xml:id="marechal_de_Catinat">
+                  <persName><idno type="URI"
+                        >https://data.bnf.fr/ark:/12148/cb119352127</idno><forename>Nicolas</forename><nameLink>de</nameLink><surname>Catinat
+                        de La Fauconnerie</surname><roleName>seigneur de Saint-Gratien et
+                        maréchal</roleName></persName>
+                  <birth when="1637-09-01" cert="high">1er septembre 1637</birth>
+                  <death when="1712-02-22" cert="high">22 février 1712</death>
+                  <occupation>Issu d'une famille de la petite noblesse du Perche, Nicolas de Catinat
+                     de La Fauconnerie est élevé à la dignité de maréchal de France en 1693. Sous le
+                     règne de Louis XIV, il prend part à de nombreux conflits impliquant la France,
+                     notamment la guerre de Hollande, la guerre de la Ligue d'Augsbourg et la guerre
+                     de Succession d'Espagne.</occupation>
+                  <residence>château de Saint-Gratien, dans la Somme.</residence>
+                  <event xml:id="bataille_La_Marsaille" when="1693-10-04" where="Marsaglia">
+                     <label>Bataille de La Marsaille</label>
+                     <desc>Bataille victorieuse livrée le 4 octobre 1693 par une armée française
+                        commandée par le maréchal de Catinat, face à une armée hispano-savoyarde
+                        conduite par Victor-Amédée II de Savoie pendant la guerre de la Ligue
+                        d'Augsbourg.</desc>
+                  </event>
+                  <bibl><idno type="URI"
+                        >https://catalogue.bnf.fr/ark:/12148/cb31916631n</idno><title>Mémoires et
+                        correspondance du maréchal de Catinat</title><author>Nicolas de
+                        Catinat</author><publisher>Amable Costes et
+                     Cie</publisher><date>1820</date></bibl>
+               </person>
+               <person sex="female" xml:id="Marie_de_Rabutin_Chantal_Sevigne">
+                  <persName><idno type="URI"
+                        >https://data.bnf.fr/ark:/12148/cb11924578j</idno><forename>Marie</forename><nameLink>de</nameLink><surname>Rabutin-Chantal</surname>
+                     <roleName>Marquise de Sévigné</roleName></persName>
+                  <birth when="1626-02-05" cert="high">5 février 1626</birth>
+                  <death when="1696-04-17" cert="high">17 avril 1696</death>
+                  <occupation>Veuve d'Henri de Sévigné, issu de la noblesse bretonne, la marquise de
+                     Sévigné s'est illustrée par son abondante et singulière activité épistolière,
+                     d'abord destinée à sa fille Françoise de Grignan, mais également aux membres de
+                     sa sphère de sociabilité bourgeoise et aristocratique. Chargée de la
+                     subjectivité et des représentations propres au XVIIe siècle, la correspondance
+                     qui en est issue est une source précieuse pour l'histoire socio-culturelle du
+                     Grand Siècle.</occupation>               
+                  <residence type="primary">Hôtel Carnavalet, à Paris</residence>
+                  <residence type="secondary">Château des Rochers-Sévigné, en Bretagne</residence>
+                  <residence type="secondary">Château de Bourbilly, en Bourgogne</residence>
+                  <note>Infatigable voyageuse, la marquise de Sévigné ne se rend que sporadiquement
+                     au domaine de Bourbilly, dont elle délègue le suivi de la gestion à son amie
+                     Antoinette-Elisabeth de Verthamon, comtesse de Guitaut, résidant au château
+                     d'Epoisses. Les affaires courantes et les problématiques inhérentes à sa
+                     propriété bourguignonne constituent ainsi une large part du contenu épistolaire
+                     échangé entre les deux femmes dans les années 1680 et 1690, jusqu'à la mort de
+                     la marquise de Sévigné en 1696.</note>
+                  <bibl facs="https://gallica.bnf.fr/ark:/12148/bpt6k5536691s">
+                     <idno type="URI">https://catalogue.bnf.fr/ark:/12148/cb41398312r</idno>
+                     <title>Mémoires touchant la vie et les écrits de Marie de Rabutin-Chantal, dame
+                        de Bourbilly, marquise de Sévigné, durant le ministère du Cardinal Mazarin
+                        et la jeunesse de Louis XIV</title><author>Charles-Athanase
+                        Walckenaer</author><publisher>F. Didot frères</publisher><date>1880</date>
+                  </bibl>
+                  <bibl><idno type="URI"
+                        >https://catalogue.bnf.fr/ark:/12148/cb43628642v</idno><title>Madame de
+                        Sévigné</title><author>Stéphane
+                        Maltère</author><publisher>Gallimard</publisher><date>2013</date></bibl>
+                  <bibl><idno type="URI"
+                        >https://catalogue.bnf.fr/ark:/12148/cb35545826v</idno><title>Madame de
+                        Sévigné, demoiselle de Bourgogne</title><author>Madeleine
+                        Hérard</author><publisher>Editions de
+                        l'Armançon</publisher><date>1992</date></bibl>
+                  <bibl>
+                     <idno type="URI"
+                        >http://catalogue.enc.sorbonne.fr/bib/113866</idno><title>Informer et
+                        raconter dans la correspondance de Madame de Sévigné</title><author>Laure
+                        Depretto</author><publisher>Editions Classiques Garnier
+                        numérique</publisher><date>2015</date>
+                  </bibl>
+               </person>
+               <person sex="female" xml:id="Antoinette_Elisabeth_de_Verthamon">
+                  <persName>
+                     <forename>Antoinette-Elisabeth</forename><nameLink>de</nameLink><surname>Verthamon</surname><roleName>comtesse
+                        de Guitaut</roleName>
+                  </persName>
+                  <birth when="1650" cert="high">1650</birth>
+                  <death when="1724" cert="high">1724</death>
+                  <residence>Château d'Epoisses, en Bourgogne</residence>
+                  <note>Le 15 octobre 1669, Antoinette-Elisabeth de Verthamon épouse Guillaume de
+                     Pechpeyrou-Comminges, nommé en 1648 gouverneur des îles de Sainte-Marguerite et
+                     de Saint-Honorat-de-Lerins, et Chevalier des Ordres du Roi. Elle devient alors
+                     comtesse de Guitaut et réside en Bourgogne, dans le château d'Epoisses. Cet
+                     ancrage géographique la place dans le voisinage du château de Bourbilly et de
+                     son domaine, propriétés de la marquise de Sévigné, dont elle est l'amie
+                     dévouée. Les deux femmes se rencontrent à Paris en 1671, lors de l'incendie qui
+                     détruisit l'hôtel Guitaut, situé rue de Thorigny. Dès lors, le comte de Guitaut
+                     et son épouse reçoivent régulièrement Mme de Sévigné dans leur château
+                     d'Epoisses. Après le décès du comte, en 1685, la comtesse de Guitaut maintient
+                     ses relations avec la marquise, laquelle lui confie la surveillance de la
+                     gestion du domaine de Bourbilly, où elle se rend peu.</note>
+                  <bibl><idno type="URI"
+                        >https://catalogue.bnf.fr/ark:/12148/cb33991394f</idno><title>Dictionnaire
+                        géographique historique et politique des Gaules et de la
+                        France</title><author>M. l'abbé Expilly</author><publisher>Desaint et
+                        Saillant</publisher><date>1762</date></bibl>
+               </person>
+               <person sex="female" xml:id="Catherine_de_Verthamon">
+                  <persName>
+                     <forename>Catherine-Madeleine</forename><nameLink>de</nameLink><surname>Verthamon</surname>
+                  </persName>
+                  <birth when="1642" cert="high">1642</birth>
+                  <death when="1722-10-28" cert="high">28 octobre 1722</death>
+                  <note>Soeur aînée d'Antoinette-Elisabeth de Verthamon, Catherine-Madeleine de
+                     Verthamon épouse en 1664 Louis-François Le Febvre de Caumartin, chargé de tenir
+                     les sceaux et, par conséquent, de représenter le pouvoir royal aux Grands jours
+                     d'Auvergne.</note>
+                  <bibl><idno type="DOI">https://doi.org/10.3406/simon.2007.1425</idno><title>Les
+                        Caumartin:entre gens de cour et gens de plume</title><author>Jean
+                        Dagen</author><date>2007</date></bibl>
+               </person>
+               <listRelation>
+                  <relation name="friend"
+                     mutual="#marechal_de_Catinat #Marie_de_Rabutin_Chantal_Sevigne"/>
+                  <relation name="friend"
+                     mutual="#Antoinette_Elisabeth_de_Verthamon #Marie_de_Rabutin_Chantal_Sevigne"/>
+                  <relation name="friend"
+                     mutual="#Marie_de_Rabutin_Chantal_Sevigne #Catherine_de_Verthamon"/>
+                  <relation name="sibling"
+                     mutual="#Catherine_de_Verthamon #Antoinette_Elisabeth_de_Verthamon"/>
+               </listRelation>
+            </listPerson>
+            <listPerson type="bourgeois_sociability_network">
+               <person sex="male" xml:id="Monsieur_Rochon">
+                  <persName>Monsieur<surname>Rochon</surname></persName>
+                  <occupation>Monsieur Rochon est l'avocat et homme d'affaires du comte de Grignan,
+                     lequel est le mari de Françoise de Sévigné, fille de la marquise.</occupation>
+               </person>
+               <person sex="male" xml:id="Jacques_Testu_de_Belval">
+                  <persName><idno type="URI"
+                        >https://data.bnf.fr/ark:/12148/cb12918608j</idno><forename>Jacques</forename><surname>Testu</surname></persName>
+                  <birth when="1626" cert="medium">1626</birth>
+                  <death when="1706-06" cert="high">juin 1706</death>
+                  <occupation>Poète et écclesiastique français, il fut prédicateur, traducteur et
+                     aumônier du roi. Il est élu à l'Académie française en mai 1665.</occupation>
+                  <note>Il est particulièrement lié à la marquise de Sévigné et à la famille de
+                     cette dernière, ainsi qu'aux comtesses de Guitaut, de Coulanges, et de La
+                     Fayette pour ne citer qu'elles. Il partage ainsi le même réseau de sociabilité
+                     que Madame de Sévigné, expliquant sa mention régulière dans la correspondance
+                     de la marquise.</note>
+               </person>
+               <listRelation>
+                  <relation name="friend"
+                     mutual="#Marie_de_Rabutin_Chantal_Sevigne #Jacques_Testu_de_Belval"/>
+                  <relation name="friend"
+                     mutual="#Marie_de_Rabutin_Chantal_Sevigne #Monsieur_Rochon"/>
+               </listRelation>
+            </listPerson>
+            <listPerson type="Bourbilly_people">
+               <person sex="male" xml:id="Boucard">
+                  <persName><surname>Boucard</surname></persName>
+                  <occupation>Ancien avocat au Parlement, Boucard est chargé de la gestion des
+                     affaires de la marquise de Sévigné pour le domaine de Bourbilly.</occupation>
+                  <residence>Bourbilly, en Bourgogne</residence>
+                  <note>Une forte antipathie, que la marquise de Sévigné qualifie d'aigreur
+                     réciproque, règne entre Hébert, receveur du domaine de Bourbilly, et lui. Cette
+                     animosité suscite des conflits de gestion des affaires dont Madame de Sévigné
+                     fait régulièrement la narration épistolaire auprès de la comtesse de
+                     Guitaut.</note>
+               </person>
+               <person sex="male" xml:id="Hebert">
+                  <persName><surname>Hébert</surname></persName>
+                  <occupation>Receveur au service de la marquise de Sévigné, pour le domaine de
+                     Bourbilly, en Bourgogne</occupation>
+                  <residence>Hébert est logé à Bourbilly avec le nouveau fermier du domaine à partir
+                     de 1693.</residence>
+                  <event xml:id="affaire_meunier_Bourbilly" when="1693" where="Bourbilly">
+                     <label>Affaire du meunier de Bourbilly</label>
+                     <desc>A l'été 1693, Hébert, receveur de Bourbilly chargé de vendre les grains
+                        du domaine, est accusé par la marquise de Sévigné de négligence en raison
+                        d'une accumulation excessive et impayée de stocks. Cet incident ainsi que
+                        les nombreuses dissensions qui l'opposent à Boucard, l'homme d'affaires de
+                        Mme de Sévigné, entrainent son renvoi à l'automne.</desc>
+                  </event>
+                  <note>Une forte antipathie règne également entre Boucard, l'homme d'affaires
+                     employé par la marquise, et lui. </note>
+               </person>
+               <person sex="male" xml:id="Monsieur_Manin">
+                  <persName><surname>Manin</surname></persName>
+                  <residence>Bourbilly, en Bourgogne.</residence>
+               </person>
+               <person sex="male" xml:id="abbe_Poussy">
+                  <persName>abbé<surname>Poussy</surname></persName>
+                  <occupation>La marquise de Sévigné lui confie le bénéfice de sa chapelle de
+                     Bourbilly.</occupation>
+                  <residence>Bourbilly, en Bourgogne</residence>
+                  <event xml:id="recrutement_nouvel_ecclesiastique" when="1693-09"
+                     where="#chapelle_Sainte_Marguerite">
+                     <label>Recrutement d'un nouvel écclesiastique</label>
+                     <desc>La marquise de Sévigné mentionne régulièrement dans sa correspondance les
+                        ennuis causés par le peu de zèle de l'abbé Poussy à remplir son devoir. En
+                        septembre 1693, l'abbé Poussy désire recruter un nouvel écclesiastique,
+                        exacerbant alors l'agacement de la marquise à son égard.</desc>
+                  </event>
+               </person>
+               <person sex="male" xml:id="le_meunier">
+                  <occupation>meunier</occupation>
+                  <residence>Bourbilly, en Bourgogne</residence>
+                  <note>En 1693, le meunier du domaine de Bourbilly a accumulé une trop grande
+                     quantité de grains, dont il n'est pas en mesure de payer l'excédent, entrainant
+                     le mécontentement de la comtesse de Sévigné à l'égard d'Hébert, son
+                     receveur.</note>
+               </person>
+               <person sex="male" xml:id="le_nouveau_fermier">
+                  <occupation>Fermier pour le domaine de Bourbilly à partir de 1693.</occupation>
+                  <residence>Bourbilly, en Bourgogne.</residence>
+               </person>
+               <listRelation>
+                  <relation name="employer" active="#Marie_de_Rabutin_Chantal_Sevigne"
+                     passive="#Hebert #Boucard #abbe_Poussy #le_nouveau_fermier"/>
+                  <relation name="employer" active="#Hebert" passive="#le_meunier"/>
+                  <relation name="localisation" active="#chapelle_Sainte_Marguerite"
+                     passive="#abbe_Poussy"/>
+                  <relation name="localisation" active="#chateau_Bourbilly"
+                     passive="#Marie_de_Rabutin_Chantal_Sevigne"/>
+                  <relation name="localisation" active="#Bourbilly"
+                     passive="#abbe_Poussy #Boucard #Monsieur_Manin #le_meunier #le_nouveau_fermier #Hebert"
+                  />
+               </listRelation>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <normalization>
+               <p>Les coquilles et autres erreurs typographiques ont été corrigées sans
+                  spécification lors de l'encodage du texte. En revanche, les singularités
+                  orthographiques inhérentes à la conjugaison du français du XVIIe siècle ont été
+                  régularisées au moyen de balises adaptées.</p>
+            </normalization>
+         </editorialDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="message">
+            <opener><dateline>Paris, septembre 1693.</dateline></opener>
+            <p n="1">Je ne répondrai point, <persName ref="#Antoinette_Elisabeth_de_Verthamon"
+                  >Madame</persName>, à toute l'émotion que vous a donnée le gain d'une bataille qui
+               nous coûte si cher. Nous avons passé par ces tristes réflexions, et peut-être
+               aurons-nous bientôt sujet d'en faire encore, dès que <note
+                  corresp="#bataille_La_Marsaille">les troupes qu'on envoie au <persName
+                     ref="#marechal_de_Catinat">maréchal de Catinat</persName> seront jointes à son
+                  armée; car il est sûr qu'il voudra secourir <placeName ref="#Pignerol"
+                     >Pignerol</placeName>, à quelque prix que ce soit: ainsi, vous voyez que nous
+                  aurons des sujets de raisonner. Dieu veuille que ce soit avec moins de
+                  tristesse!</note> Je vis l'autre jour <persName ref="#Catherine_de_Verthamon"
+                  >madame votre soeur</persName>, je lui demandais si elle <choice>
+                  <orig>avoit</orig>
+                  <reg>avait</reg>
+                  </choice> soin de vous <emph><note xml:id="mander">mander<interp type="synchronic"
+                     facs="https://gallica.bnf.fr/ark:/12148/bpt6k5542578m/f823.item.r=dictionnaire%20universel%20Fureti%C3%A8re"
+                     >Ecrire à quelqu'un, ou lui envoyer un message pour lui faire savoir quelque
+                     chose, pour le prier, le charger de faire quelque affaire.</interp></note></emph>
+               toutes les nouvelles, qu'elle <choice>
+                  <orig>étoit</orig>
+                  <reg>était</reg>
+               </choice> logée bien commodément pour cela. <quote>Elle me dit qu'oui.</quote><pb/>
+               C'est que vous m'aviez paru, dans votre lettre, n'être instruite (comme vous le dites
+               vous-même) que par bricole; et en vérité vous devriez l'être bien directement.</p>
+            <p n="2"> Je ne puis vous dire, ma chère Madame, la honte que j'ai, malgré tout ce que vous me
+                  <note corresp="#mander">mandez</note>, de vous parler de mes <note
+                  corresp="#affaire_meunier_Bourbilly">misérables affaires</note>. <quote><persName
+                     ref="#Hebert">Hébert</persName> me <choice>
+                     <orig>mandoit</orig>
+                     <reg>mandait</reg>
+                  </choice> la dernière fois qu'elles vous <choice>
+                     <orig>avoient</orig>
+                     <reg>avaient</reg>
+                  </choice> bien rompu la tête</quote>; et comme j'aime et j'honore cette tête, et
+               que je sais combien vous en avez abusé, je ne puis souffrir qu'elle reçoive encore le
+               moindre épuisement pour mes intérêts. J'envoie à <persName ref="#Boucard"
+                  >Boucard</persName> un petit mémoire de mon aimable <persName
+                  ref="#Monsieur_Rochon">Rochon</persName>, dont je ménage la tête et la poitrine
+               aussi. Il conseille une compensation que vous verrez et que je trouve fort juste. Je
+               ne blâme point <persName ref="#Hebert">Hébert</persName> de ce qu'il a prêté au
+                  <persName ref="#le_meunier">meunier</persName> pour semer; mais je désapprouve
+               fort qu'il donne tant de temps et de patience au <persName ref="#le_meunier"
+                  >meunier</persName>, qui est mauvais payeur; il ne <choice>
+                  <orig>devroit</orig>
+                  <reg>devrait</reg>
+               </choice> pas pour cela avoir une si grande <emph><note xml:id="complaisance">
+                        complaisance<interp type="synchronic"
+                        facs="https://gallica.bnf.fr/ark:/12148/bpt6k50614b/f450.image.r=Dictionnaire%20universel,%20contenant%20g%C3%A9n%C3%A9ralement%20tous%20les%20mots%20fran%C3%A7ois%20tant"
+                        > Déférence aux sentiments et aux volontés d'autrui. La complaisance est
+                        d'ordinaire accompagnée de flatterie. </interp></note></emph> pour <persName
+                     ref="#Boucard">Boucard.</persName> Je vous avoue enfin, <persName
+                  ref="#Antoinette_Elisabeth_de_Verthamon">Madame</persName>, que je suis ravie de
+               n'avoir plus ce <persName ref="#Hebert">receveur</persName>. Je n'ai pas reçu 2200
+               livres de <placeName ref="#Bourbilly">ma terre</placeName> chaque année; et même
+               cette dernière année que les grains sont chers, je ne m'en <choice>
+                  <orig>serois</orig>
+                  <reg>serais</reg>
+               </choice> pas trop sentie. Je hais cette manière de paiement, encore plus les
+               continuelles contestations de <persName ref="#Boucard">Boucard</persName> et de
+                  <persName ref="#Hebert">lui</persName>; <pb/> cela me déplaît. Nous avons joint la
+               fin de son compte avec cette dernière année: il faut finir; <persName
+                  ref="#Antoinette_Elisabeth_de_Verthamon">ma chère Madame</persName>, et n'en
+               entendre jamais parler. S'il <choice>
+                  <orig>venoit</orig>
+                  <reg>venait</reg>
+               </choice> ici comme il me l'offre, je ne <choice>
+                  <orig>regarderois</orig>
+                  <reg>regarderais</reg>
+               </choice> pas son compte; c'est dans <placeName ref="#Bourgogne #Bourbilly">le pays
+                  et sur les lieux</placeName> qu'il faut l'arrêter et se tirer de ce vilain détail.
+               Ordonnez à <persName ref="#Boucard">Boucard</persName> de le finir; et si <persName
+                  ref="#Hebert">Hébert</persName> ne veut pas l'en croire, priez <persName
+                  ref="#Monsieur_Manin">M. Manin</persName> d'y entrer pour y mettre la conclusion;
+               il le voudra bien à votre prière, et je crois même qu'il ne sera pas fâché de me
+               faire ce plaisir. Je vous assure que je signerai ce qu'ils auront tous deux signé; et
+               quand, au lieu de décider comme je vous le demande à genoux, <quote>vous me demandez
+                  mon avis</quote>, je suis prête à pleurer; car que <choice>
+                  <orig>ferois</orig>
+                  <reg>ferais</reg>
+               </choice>-je si j'<choice>
+                  <orig>étois</orig>
+                  <reg>étais</reg>
+               </choice> en <placeName ref="#Bourgogne">Bourgogne</placeName>, que de suivre tous
+               vos conseils? Après cela, <persName ref="#Antoinette_Elisabeth_de_Verthamon">ma chère
+                  Madame</persName>, je ne vous dirai plus rien.</p>
+            <p n="3"> Si le <persName ref="#le_nouveau_fermier">nouveau fermier</persName><choice>
+                  <orig> étoit</orig>
+                  <reg>était</reg>
+               </choice> un homme sincère et de bonne foi, qui voulût me payer à Noël tout ce
+                  qu'il aura reçu en conscience, comme il me le fait espérer, je le croirais
+               aussi sur la perte que la grêle lui <choice>
+                  <orig>auroit</orig>
+                  <reg>aurait</reg>
+               </choice>causée, j'<choice>
+                  <orig>entrerois</orig>
+                  <reg>entrerais</reg>
+               </choice> en considération de ce qu'il n'<choice>
+                  <orig>auroit</orig>
+                  <reg>aurait</reg>
+               </choice> point reçu; et si on <choice>
+                  <orig>voyoit</orig>
+                  <reg>voyait</reg>
+               </choice> dans <placeName ref="#Bourbilly #chateau_Bourbilly">le pays</placeName>
+               qu'il dit vrai, je ne lui <choice>
+                  <orig>demanderois</orig>
+                  <reg>demanderais</reg>
+               </choice> pas ce qu'il n'<choice>
+                  <orig>auroit</orig>
+                  <reg>aurait</reg>
+               </choice> pas touché: voilà comme j'en <choice>
+                  <orig>userois</orig>
+                  <reg>userais</reg>
+               </choice> avec lui, s'il est digne de cette confiance, car je n'ai aucune envie de
+               <pb/> ruiner un homme qui l'est déjà, et je ne le <choice>
+                  <orig>ferois</orig>
+                  <reg>ferais</reg>
+               </choice>point du tout mettre en prison. Je vous ai envoyé le revenu de <placeName
+                  ref="#chateau_Bourbilly">la terre</placeName>, il sera aisé de voir ce
+               qu'il ne recevra pas; et pour les bonnes années, si Dieu nous en envoie, il est clair
+               que la terre qu'il afferme 3400 liv. vaut 4600 liv. Ainsi tout se <choice>
+                  <orig>pourroit</orig>
+                  <reg>pourrait</reg>
+               </choice> accommoder et raccommoder. Ayez la bonté de vous informer de la conduite de
+                  <persName ref="#le_nouveau_fermier">cet homme</persName>, dont on m'a dit beaucoup
+               de bien. Quoi qu'il en soit, il n'y a rien que je n'aime mieux que la recette que je
+               finis et où j'ai beaucoup perdu.</p>
+            <p n="4"> Pour <note corresp="#recrutement_nouvel_ecclesiastique"><persName ref="#abbe_Poussy"
+                     >M. Poussy</persName>, s'il veut, sans autre façon, nommer un ecclésiastique<placeName ref="#chapelle_Sainte_Marguerite"/>,
+                  et vous un autre, et qu'ils choisissent un tiers, s'ils ont peine à convenir,
+                  qu'ils voyent une bonne fois à quoi <persName ref="#abbe_Poussy">M. Poussy
+                  </persName>est obligé, et que je n'aie plus ce paquet sur la conscience.</note>Je
+               vous jure, Madame, que je signerai tout ce que vous me conseillerez. Usez donc de
+               tout le pouvoir que je vous donne pour soulager votre tête par de fréquentes
+               décisions, et pour me donner le repos que je n'espère que de vous.</p>
+            <p n="5"><persName ref="#Jacques_Testu_de_Belval">L'abbé Testu</persName> vous honore, vous
+               estime et se prépare à faire de vous une amie qui fasse la douceur, l'honneur et la
+               consolation du reste de sa vie.</p>
+            <closer>
+               <salute> Pour moi, <persName ref="#Antoinette_Elisabeth_de_Verthamon">ma chère
+                     Madame</persName>, je ne trouve aucune femme que je puisse comparer à vous. Je
+                        le pense comme je le dis, et ne crois plus être votre dupe.</salute>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
